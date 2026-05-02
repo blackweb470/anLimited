@@ -6,7 +6,7 @@ import towerImg from "@/assets/project-tower.jpg";
 import fabImg from "@/assets/project-fabrication.jpg";
 import roadImg from "@/assets/project-road.jpg";
 import ceoImg from "@/assets/team-ceo.webp";
-import ctoImg from "@/assets/team-cto.webp";
+import ctoImg from "@/assets/team-cto.png";
 import architectImg from "@/assets/team-architect.webp";
 
 const NAV = [
