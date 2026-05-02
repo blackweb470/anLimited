@@ -59,7 +59,7 @@ const PROJECTS = [
 
 const TEAM = [
   { name: " ENGR Destiny Akhatasebhudo", role: "Chief Executive Officer", img: ceoImg },
-  { name: "ENGR Odion Julian Akhatasebhudo", role: "Technology Officer", img: architectImg },
+  { name: "ENGR Odion Julian Akhatasebhudo", role: "Chief Operating Officer", img: architectImg },
   { name: "ARCH Ekpen Josephus Akhatasebhudo", role: "Chief Architect", img: ctoImg },
 ];
 
