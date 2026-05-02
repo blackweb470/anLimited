@@ -191,8 +191,8 @@ const Index = () => {
             { k: "Real Estate", v: "Property development" },
             { k: "Trade", v: "Imports & exports" },
           ].map((s) => (
-            <div key={s.v} className="border-r border-ink last:border-r-0 px-17 py-50">
-              <div className="font-display font-bold text-heading-lg">{s.k}</div>
+            <div key={s.v} className="border-r border-ink last:border-r-0 px-8 py-25 md:px-17 md:py-50 overflow-hidden">
+              <div className="font-display font-bold text-heading-sm lg:text-heading xl:text-heading-lg break-words hyphens-auto">{s.k}</div>
               <div className="mt-2 text-caption uppercase tracking-widest">{s.v}</div>
             </div>
           ))}
