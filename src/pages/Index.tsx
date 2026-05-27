@@ -1,9 +1,14 @@
 import { Link } from "react-router-dom";
 import { heroImg } from "@/lib/data";
+import SEO from "@/components/SEO";
 
 const Index = () => {
   return (
     <>
+      <SEO 
+        title="Top Engineering, Construction & Global Trade Firm in Nigeria" 
+        description="Akhatasebhudo Nigeria Limited delivers world-class civil, mechanical, and structural engineering alongside expert global trade, import, and export services across Nigeria."
+      />
       {/* HERO */}
       <section className="pt-32 md:pt-40 lg:pt-56 pb-12 md:pb-16 flex justify-center w-full">
         <div className="w-full max-w-[1600px] mx-auto px-6 md:px-12 lg:px-16">

@@ -1,8 +1,13 @@
 import { Link } from "react-router-dom";
+import SEO from "@/components/SEO";
 
 const About = () => {
   return (
     <section className="py-20 md:py-32 bg-ink text-canvas flex flex-col justify-center w-full min-h-screen items-center">
+      <SEO 
+        title="About Us | Engineering & Real Estate Leaders" 
+        description="Learn about our mission and vision. We are a trusted partner in Nigeria for infrastructure development, fabrication, and international logistics."
+      />
       <div className="w-full max-w-[1600px] mx-auto px-6 md:px-12 lg:px-16 grid lg:grid-cols-2 gap-12 md:gap-16 lg:gap-24">
         <div>
           <h2 className="font-display font-bold text-5xl md:text-7xl lg:text-[80px] xl:text-[90px] leading-[1.1] tracking-tight break-words mb-8">

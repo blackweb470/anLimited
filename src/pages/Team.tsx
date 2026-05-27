@@ -1,9 +1,14 @@
 import { Link } from "react-router-dom";
 import { TEAM } from "@/lib/data";
+import SEO from "@/components/SEO";
 
 const Team = () => {
   return (
     <section className="py-20 md:py-32 flex justify-center w-full min-h-screen">
+      <SEO 
+        title="Our Leadership Team | Decades of Industry Expertise" 
+        description="Meet the visionary leaders driving innovation and sustainable development at Akhatasebhudo Nigeria Limited."
+      />
       <div className="w-full max-w-[1600px] mx-auto px-6 md:px-12 lg:px-16">
         <div className="mb-16 md:mb-24 max-w-3xl">
           <h2 className="font-display font-bold text-5xl md:text-7xl lg:text-[80px] xl:text-[90px] leading-[1.1] tracking-tight break-words mb-8">Our Leaders</h2>

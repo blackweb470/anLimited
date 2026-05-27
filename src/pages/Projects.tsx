@@ -1,9 +1,14 @@
 import { Link } from "react-router-dom";
 import { PROJECTS } from "@/lib/data";
+import SEO from "@/components/SEO";
 
 const Projects = () => {
   return (
     <section className="py-20 md:py-32 bg-secondary overflow-hidden flex flex-col items-center w-full min-h-screen">
+      <SEO 
+        title="Our Portfolio | Infrastructure & Construction Landmarks" 
+        description="Explore our extensive track record of excellence in federal highways, civic towers, bridge foundations, and heavy steel fabrication in Nigeria."
+      />
       {/* Marquee Header */}
       <div className="w-full border-y border-ink/10 py-6 md:py-8 mb-16 md:mb-24 flex overflow-hidden opacity-20">
         <div className="marquee-track flex gap-16 whitespace-nowrap font-display font-bold text-[12vw] md:text-[10vw] uppercase leading-none">

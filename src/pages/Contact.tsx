@@ -1,6 +1,12 @@
+import SEO from "@/components/SEO";
+
 const Contact = () => {
   return (
     <section className="py-20 md:py-32 bg-ink text-canvas flex justify-center w-full min-h-screen items-center">
+      <SEO 
+        title="Contact Us | Let's Break New Ground Together" 
+        description="Partner with industry leaders for your next big project. Reach our Abuja office for engineering, fabrication, and international trade inquiries."
+      />
       <div className="w-full max-w-[1600px] mx-auto px-6 md:px-12 lg:px-16 grid lg:grid-cols-2 gap-16 md:gap-24">
         <div>
           <h2 className="font-display font-bold text-5xl md:text-7xl lg:text-[80px] xl:text-[90px] leading-[1.1] tracking-tight mb-8 md:mb-12 break-words">

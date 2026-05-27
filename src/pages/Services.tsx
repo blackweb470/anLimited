@@ -1,9 +1,14 @@
 import { Link } from "react-router-dom";
 import { ENGINEERING_SERVICES, ALLIED_WORKS, IMPORT_SERVICES, EXPORT_SERVICES } from "@/lib/data";
+import SEO from "@/components/SEO";
 
 const Services = () => {
   return (
     <section className="py-20 md:py-32 flex justify-center w-full min-h-screen">
+      <SEO 
+        title="Our Services | Engineering, Allied Works & Global Logistics" 
+        description="Turnkey solutions in civil engineering, HVAC, steel fabrication, custom machining, and global import/export services tailored to your project needs."
+      />
       <div className="w-full max-w-[1600px] mx-auto px-6 md:px-12 lg:px-16">
         <div className="mb-16 md:mb-24 max-w-4xl">
           <h2 className="font-display font-bold text-5xl md:text-7xl lg:text-[80px] xl:text-[90px] leading-[1.1] tracking-tight break-words mb-8 md:mb-12">
