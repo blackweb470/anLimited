@@ -13,7 +13,7 @@ const Team = () => {
         <div className="mb-16 md:mb-24 max-w-3xl">
           <h2 className="font-display font-bold text-5xl md:text-7xl lg:text-[80px] xl:text-[90px] leading-[1.1] tracking-tight break-words mb-8">Our Leaders</h2>
           <p className="text-body md:text-heading-sm opacity-80 leading-relaxed font-medium">
-            Driven by Experience and Vision. Our leadership team brings decades of combined expertise across structural engineering, architecture, and international logistics. Together, we guide Akhatasebhudo Nigeria Limited towards new horizons.
+            Driven by Experience and Vision. Our leadership team brings decades of combined expertise across structural engineering, architecture, and civil infrastructure. Together, we guide Akhatasebhudo Nigeria Limited towards new horizons.
           </p>
         </div>
         
