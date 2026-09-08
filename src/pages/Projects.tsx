@@ -8,6 +8,30 @@ const Projects = () => {
       <SEO 
         title="Our Projects & Portfolio | Akhatasebhudo Nigeria Limited" 
         description="Explore our portfolio of civil engineering landmarks, power substations, commercial centers, and structural tower designs across Nigeria."
+        structuredData={{
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "River Park Cluster 3",
+              "url": "https://www.akhatasebhudoltd.com/projects/river-park-cluster-3"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Lugbe River Park Estate",
+              "url": "https://www.akhatasebhudoltd.com/projects/lugbe-river-park"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Aso Drive Townhouse",
+              "url": "https://www.akhatasebhudoltd.com/projects/aso-drive-terraces"
+            }
+          ]
+        }}
       />
 
       {/* HERO BANNER - MATCHING SCREENSHOT EXACTLY (CENTERED DARK ARCHITECTURAL BACKGROUND) */}

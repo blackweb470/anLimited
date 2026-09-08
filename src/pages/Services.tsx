@@ -57,6 +57,18 @@ const Services = () => {
       <SEO 
         title="Services & Divisions | Akhatasebhudo Nigeria Limited" 
         description="Turnkey Architectural Drawing, Structural Engineering, Electrical Drafting, Mechanical MEP, and Civil Construction across Nigeria."
+        structuredData={{
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "serviceType": ["Architectural Drawing", "Structural Engineering", "Electrical Engineering", "Mechanical MEP", "Civil Engineering", "Steel Fabrication", "Precision Machining"],
+          "provider": {
+            "@type": "Organization",
+            "name": "Akhatasebhudo Nigeria Limited",
+            "url": "https://www.akhatasebhudoltd.com"
+          },
+          "areaServed": "Nigeria",
+          "description": "End-to-End Solutions from Architectural & Structural Engineering Drawings to Infrastructure Development & Fabrication."
+        }}
       />
       
       {/* MAIN SERVICES SECTION WITH DARK ARCHITECTURAL BACKGROUND & GOLD ACCENT BAND */}

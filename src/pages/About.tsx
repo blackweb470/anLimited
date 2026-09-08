@@ -57,6 +57,18 @@ const About = () => {
       <SEO 
         title="About Us | Akhatasebhudo Nigeria Limited" 
         description="Learn about our founding on March 6, 2017, executive leadership team, mission, vision, and core values in engineering and CAD drafting."
+        structuredData={{
+          "@context": "https://schema.org",
+          "@type": "AboutPage",
+          "name": "About Akhatasebhudo Nigeria Limited",
+          "url": "https://www.akhatasebhudoltd.com/about",
+          "description": "Information about Akhatasebhudo Nigeria Limited, its mission, vision, and executive team.",
+          "mainEntity": {
+            "@type": "Organization",
+            "name": "Akhatasebhudo Nigeria Limited",
+            "foundingDate": "2017-03-06"
+          }
+        }}
       />
       
       {/* HERO BANNER - MATCHING SCREENSHOT EXACTLY (CENTERED DARK ARCHITECTURAL BACKGROUND) */}

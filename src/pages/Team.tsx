@@ -8,6 +8,44 @@ const Team = () => {
       <SEO 
         title="Our Leadership Team | Decades of Industry Expertise" 
         description="Meet the visionary leaders driving innovation and sustainable development at Akhatasebhudo Nigeria Limited."
+        structuredData={{
+          "@context": "https://schema.org",
+          "@type": "ProfilePage",
+          "name": "Akhatasebhudo Nigeria Limited Leadership Team",
+          "url": "https://www.akhatasebhudoltd.com/team",
+          "mainEntity": {
+            "@type": "ItemList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                  "@type": "Person",
+                  "name": "ENGR Destiny Akhatasebhudo",
+                  "jobTitle": "Chief Executive Officer"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                  "@type": "Person",
+                  "name": "ENGR Odion Julian Akhatasebhudo",
+                  "jobTitle": "Chief Architect"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                  "@type": "Person",
+                  "name": "ARCH Ekpen Josephus Akhatasebhudo",
+                  "jobTitle": "Chief Technology Officer"
+                }
+              }
+            ]
+          }
+        }}
       />
       <div className="w-full max-w-[1600px] mx-auto px-6 md:px-12 lg:px-16">
         <div className="mb-16 md:mb-24 max-w-3xl">

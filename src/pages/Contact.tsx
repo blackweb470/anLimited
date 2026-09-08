@@ -15,6 +15,25 @@ const Contact = () => {
       <SEO 
         title="Information Request & Office Locations | Akhatasebhudo Nigeria Ltd" 
         description="Fill out our information request form or reach out to our office location in Abuja, Nigeria."
+        structuredData={{
+          "@context": "https://schema.org",
+          "@type": "ContactPage",
+          "name": "Contact Akhatasebhudo Nigeria Limited",
+          "url": "https://www.akhatasebhudoltd.com/contact",
+          "mainEntity": {
+            "@type": "LocalBusiness",
+            "name": "Akhatasebhudo Nigeria Limited",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "No. 7, Emeka Udeh Street, FO1 Kubwa",
+              "addressLocality": "Abuja",
+              "addressRegion": "AMAC",
+              "addressCountry": "NG"
+            },
+            "telephone": "+2348030967184",
+            "email": "info@akhatasebhudoltd.com"
+          }
+        }}
       />
 
       {/* HERO BANNER - MATCHING SCREENSHOT EXACTLY (CENTERED DARK ARCHITECTURAL BACKGROUND) */}
